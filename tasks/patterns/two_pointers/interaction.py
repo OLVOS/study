@@ -1,6 +1,6 @@
 
 
-def union(nums1, nums2):
+def interactions(nums1, nums2):
     f, s = 0, 0
     res = []
     while f < len(nums1) and s < len(nums2):
@@ -58,4 +58,4 @@ def check_intersection_function(func):
         print("🎉 Все тесты успешно пройдены!")
 
 
-check_intersection_function(union)
+check_intersection_function(interactions)
